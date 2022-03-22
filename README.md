@@ -15,7 +15,7 @@ Using it in docker-compose:
 version: '3.6'
 services:
   sqs:
-    images: servit/moto-sqs:latest
+    image: servit/moto-sqs:latest
     ports:
       - "4576:4576"
 ```
